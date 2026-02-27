@@ -42,6 +42,7 @@ plot = prettymaps.plot(
         'streets': {'fc': '#2F3737', 'ec': '#475657', 'alpha': 1, 'zorder': 4},
         'building': {'palette': ['#FFC857', '#E9724C', '#C5283D'], 'ec': '#2F3737', 'lw': 0.5, 'zorder': 5},
     },
+    use_preset=False,
     show=False,
     credit={'text': 'University of Wisconsin–Madison  |  prettymaps', 'x': 0, 'y': -20},
 )
